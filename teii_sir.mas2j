@@ -1,0 +1,13 @@
+MAS teii_sir {
+
+    infrastructure: Centralised
+
+    environment: LifeEnvironment(100, 5000, 1, 0, 0) //N, populacao, #p0, #protegidos, #vacinados
+
+    agents:
+        cell[verbose=0] #5000;
+    
+    aslSourcePath:
+		"src/asl";
+
+}
